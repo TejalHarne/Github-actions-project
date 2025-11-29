@@ -18,11 +18,11 @@ jobs:
       with:
         node-version: '20'
 
-    - name: Install dependencies
-      run: npm install
+   # - name: Install dependencies
+    #  run: npm install
 
-    - name: Build
-      run: npm run build || true
+   # - name: Build
+    #  run: npm run build || true
 
     # 🔑 Login to Azure using Service Principal (from GitHub Secrets)
     - name: Azure Login
